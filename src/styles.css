@@ -21,24 +21,26 @@ body {
 
 .logo {
 	grid-column: 1 / 2;
-	margin-top: 1rem;
+	margin-top: 0.3rem;
 	margin-left: 1.5rem;
-	margin-bottom: 1rem;	
+	margin-bottom: 0.3rem;	
 }
 
 .menu {
 	grid-column: 2 / 2;
 	text-align: right;
 	margin-right: 1rem;
-	margin-bottom: 1rem;	
 	font-size: 0.8rem;
+	margin-top: 1rem;
+	margin-bottom: 1rem;	
 }
 
-.contenedor {
+.encabezado {
   width: 100%;
   max-width: 900px;
   margin-left: auto;
   margin-right: auto;
+  display: grid;
 }
 
 nav {
@@ -52,5 +54,6 @@ nav > ul {
 
 nav > ul > li {
   display: inline-block;
-  height: 1rem;
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
 }
