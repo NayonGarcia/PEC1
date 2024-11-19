@@ -2,7 +2,7 @@
 /* CSS Document */
 
 header {
-	background-color: #00dbff;
+	background-color: #10A5F5;
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -10,4 +10,47 @@ header {
 	display: grid;
 	align-items: center;
 	height: auto;
+}
+
+body {
+	font-family: "Assistant", sans-serif;
+	color: #FFF;
+	font-weight: 700;
+	line-height: 1.5rem
+}
+
+.logo {
+	grid-column: 1 / 2;
+	margin-top: 1rem;
+	margin-left: 1.5rem;
+	margin-bottom: 1rem;	
+}
+
+.menu {
+	grid-column: 2 / 2;
+	text-align: right;
+	margin-right: 1rem;
+	margin-bottom: 1rem;	
+	font-size: 0.8rem;
+}
+
+.contenedor {
+  width: 100%;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+nav {
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+nav > ul {
+  list-style-type: none;
+}
+
+nav > ul > li {
+  display: inline-block;
+  height: 1rem;
 }
