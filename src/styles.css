@@ -1,7 +1,13 @@
 @charset "utf-8";
 /* CSS Document */
 
-h1 {
-  color: hotpink;
-  font-family: cursive;
+header {
+	background-color: #00dbff;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	display: grid;
+	align-items: center;
+	height: auto;
 }

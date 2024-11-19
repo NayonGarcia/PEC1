@@ -1,5 +1,11 @@
-h1 {
-  color: #ff69b4;
-  font-family: cursive;
+header {
+  background-color: #00dbff;
+  align-items: center;
+  height: auto;
+  display: grid;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
 }
 /*# sourceMappingURL=index.4d663569.css.map */
