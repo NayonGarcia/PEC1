@@ -1,6 +1,20 @@
 @charset "utf-8";
 /* CSS Document */
 
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+	font-family: "Assistant", sans-serif;
+	color: #070040;
+	line-height: 2rem;
+	font-weight: 500;
+}
+
 header {
 	background-color: #10A5F5;
 	position: fixed;
@@ -10,34 +24,29 @@ header {
 	display: grid;
 	align-items: center;
 	height: auto;
-}
-
-body {
-	font-family: "Assistant", sans-serif;
+	z-index: 20;
 	color: #FFF;
 	font-weight: 700;
-	line-height: 1.5rem
 }
 
 .logo {
 	grid-column: 1 / 2;
-	margin-top: 0.3rem;
+	margin-top: 0;
 	margin-left: 1.5rem;
-	margin-bottom: 0.3rem;	
+	margin-bottom: 0;	
 }
 
 .menu {
 	grid-column: 2 / 2;
-	text-align: right;
-	margin-right: 1rem;
 	font-size: 0.8rem;
-	margin-top: 1rem;
-	margin-bottom: 1rem;	
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
 }
 
 .encabezado {
   width: 100%;
-  max-width: 900px;
+  max-width: 70%;
   margin-left: auto;
   margin-right: auto;
   display: grid;
@@ -56,4 +65,126 @@ nav > ul > li {
   display: inline-block;
   padding-right: 0.5rem;
   padding-left: 0.5rem;
+}
+
+footer {
+	background-color: #070040;
+	display: grid;
+	align-items: center;
+	height: auto;
+	margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+	color: #FFF;
+}
+
+main {
+	margin-top: 85px;
+	top: 0;
+    left: 0;
+    right: 0;
+}
+
+.carrusel {
+    position: relative;
+    width: 100vw;
+    height: 100vh; 
+    overflow: hidden;
+	z-index: 10;}
+
+.slides {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+    flex: 1 0 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 15px;
+    font-size: 24px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+button.prev {
+    left: 20px;
+}
+
+button.next {
+    right: 20px;
+}
+
+
+.contenedor {
+	width: 100%;
+	max-width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.presentacion {
+	margin-top: 5rem;
+	margin-bottom: 5rem;
+}
+
+.pie {
+  	width: 100%;
+	max-width: 70%;
+  	margin-left: auto;
+  	margin-right: auto;
+  	display: grid;
+	padding: 1rem;
+	font-size: 0.7rem;
+	line-height: 1rem;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+.datos {
+	grid-column: 1 / 3;
+	grid-row: 1 / 1;
+	display: flex;
+	align-items: center;
+	width: 100%;
+}
+
+.datos > ul {
+	list-style: none;
+}
+
+.logo-pie  {
+	grid-column: 2 / 3;
+	grid-row: 1 / 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+}
+
+.redes {
+	grid-column: 3 / 3;
+	grid-row: 1 / 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items: flex-end;
+	width: 100%;
+}
+
+.redes > ul {
+	list-style: none;
+	display: flex;
 }

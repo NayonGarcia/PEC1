@@ -18,18 +18,17 @@ body {
 
 .logo {
   grid-column: 1 / 2;
-  margin-top: .5rem;
-  margin-bottom: .5rem;
+  margin-top: .3rem;
+  margin-bottom: .3rem;
   margin-left: 1.5rem;
 }
 
 .menu {
   text-align: right;
   grid-column: 2 / 2;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-  margin-right: 1rem;
+  align-items: center;
   font-size: .8rem;
+  display: flex;
 }
 
 .encabezado {

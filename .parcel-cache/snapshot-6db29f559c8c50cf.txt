@@ -2,7 +2,7 @@
 79/mnt/c/Users/USUARIO/Desktop/MASTER/Herramientas_HTML_y_CSS/pec1/src/index.html1732042773749774600 0
 81/mnt/c/Users/USUARIO/Desktop/MASTER/Herramientas_HTML_y_CSS/pec1/src/img/logo.png1732041622578124800 0
 72/mnt/c/Users/USUARIO/Desktop/MASTER/Herramientas_HTML_y_CSS/pec1/src/img1732041622600754000 1
-68/mnt/c/Users/USUARIO/Desktop/MASTER/Herramientas_HTML_y_CSS/pec1/src1732043509051530600 1
+68/mnt/c/Users/USUARIO/Desktop/MASTER/Herramientas_HTML_y_CSS/pec1/src1732044903909274600 1
 96/mnt/c/Users/USUARIO/Desktop/MASTER/Herramientas_HTML_y_CSS/pec1/node_modules/yallist/yallist.js1731933630153152400 0
 93/mnt/c/Users/USUARIO/Desktop/MASTER/Herramientas_HTML_y_CSS/pec1/node_modules/yallist/LICENSE1731933629715018900 0
 101/mnt/c/Users/USUARIO/Desktop/MASTER/Herramientas_HTML_y_CSS/pec1/node_modules/wrap-ansi-cjs/readme.md1731919552840217800 0
@@ -2555,7 +2555,7 @@
 112/mnt/c/Users/USUARIO/Desktop/MASTER/Herramientas_HTML_y_CSS/pec1/node_modules/@babel/preset-env/lib/index.js.map1731933639625151800 0
 118/mnt/c/Users/USUARIO/Desktop/MASTER/Herramientas_HTML_y_CSS/pec1/node_modules/@babel/traverse/lib/path/ancestry.js.map1731933638106970100 0
 118/mnt/c/Users/USUARIO/Desktop/MASTER/Herramientas_HTML_y_CSS/pec1/node_modules/chrome-trace-event/dist/trace-event.d.ts1731916671833376500 0
-69/mnt/c/Users/USUARIO/Desktop/MASTER/Herramientas_HTML_y_CSS/pec1/dist1732043126505109900 1
+69/mnt/c/Users/USUARIO/Desktop/MASTER/Herramientas_HTML_y_CSS/pec1/dist1732044880299664300 1
 97/mnt/c/Users/USUARIO/Desktop/MASTER/Herramientas_HTML_y_CSS/pec1/node_modules/is-symbol/README.md1731919560883418200 0
 97/mnt/c/Users/USUARIO/Desktop/MASTER/Herramientas_HTML_y_CSS/pec1/node_modules/path-parse/index.js1731919551271532900 0
 118/mnt/c/Users/USUARIO/Desktop/MASTER/Herramientas_HTML_y_CSS/pec1/node_modules/css-tree/cjs/lexer/generic-an-plus-b.cjs1731993041598923700 0
@@ -2845,7 +2845,7 @@
 112/mnt/c/Users/USUARIO/Desktop/MASTER/Herramientas_HTML_y_CSS/pec1/node_modules/htmlnano/docs/docusaurus.config.js1731916685830007700 0
 117/mnt/c/Users/USUARIO/Desktop/MASTER/Herramientas_HTML_y_CSS/pec1/node_modules/@parcel/utils/test/prettifyTime.test.js1731916691724816300 0
 115/mnt/c/Users/USUARIO/Desktop/MASTER/Herramientas_HTML_y_CSS/pec1/node_modules/@parcel/utils/test/objectHash.test.js1731916691557293400 0
-79/mnt/c/Users/USUARIO/Desktop/MASTER/Herramientas_HTML_y_CSS/pec1/src/styles.css1732043509045563500 0
+79/mnt/c/Users/USUARIO/Desktop/MASTER/Herramientas_HTML_y_CSS/pec1/src/styles.css1732044903906270800 0
 127/mnt/c/Users/USUARIO/Desktop/MASTER/Herramientas_HTML_y_CSS/pec1/node_modules/@parcel/utils/test/input/sourcemap/source-root.js1731916692664493100 0
 107/mnt/c/Users/USUARIO/Desktop/MASTER/Herramientas_HTML_y_CSS/pec1/node_modules/@babel/runtime/helpers/jsx.js1731933648373607800 0
 109/mnt/c/Users/USUARIO/Desktop/MASTER/Herramientas_HTML_y_CSS/pec1/node_modules/caniuse-lite/data/regions/BR.js1731916690407991700 0
@@ -3286,7 +3286,7 @@
 111/mnt/c/Users/USUARIO/Desktop/MASTER/Herramientas_HTML_y_CSS/pec1/node_modules/resolve/test/resolver/baz/doom.js1731919565046880200 0
 99/mnt/c/Users/USUARIO/Desktop/MASTER/Herramientas_HTML_y_CSS/pec1/node_modules/resolve/test/resolver1731919568076017300 1
 125/mnt/c/Users/USUARIO/Desktop/MASTER/Herramientas_HTML_y_CSS/pec1/node_modules/npm-run-all/node_modules/color-convert/index.js1731919557098645300 0
-82/mnt/c/Users/USUARIO/Desktop/MASTER/Herramientas_HTML_y_CSS/pec1/package-lock.json1732003408460154700 0
+82/mnt/c/Users/USUARIO/Desktop/MASTER/Herramientas_HTML_y_CSS/pec1/package-lock.json1732044147620750200 0
 98/mnt/c/Users/USUARIO/Desktop/MASTER/Herramientas_HTML_y_CSS/pec1/node_modules/@parcel/reporter-cli1731916683528087800 1
 128/mnt/c/Users/USUARIO/Desktop/MASTER/Herramientas_HTML_y_CSS/pec1/node_modules/@babel/runtime/helpers/initializerWarningHelper.js1731933648046733100 0
 118/mnt/c/Users/USUARIO/Desktop/MASTER/Herramientas_HTML_y_CSS/pec1/node_modules/lmdb/dependencies/lz4/lib/dll/liblz4.def1731916695687102100 0
@@ -3913,7 +3913,7 @@
 140/mnt/c/Users/USUARIO/Desktop/MASTER/Herramientas_HTML_y_CSS/pec1/node_modules/@babel/plugin-proposal-private-property-in-object/lib/index.js1731933632530588800 0
 126/mnt/c/Users/USUARIO/Desktop/MASTER/Herramientas_HTML_y_CSS/pec1/node_modules/@swc/helpers/_/_to_consumable_array/package.json1731916700639422400 0
 120/mnt/c/Users/USUARIO/Desktop/MASTER/Herramientas_HTML_y_CSS/pec1/node_modules/css-select/lib/pseudo-selectors/pseudos.js1731993038987789300 0
-82/mnt/c/Users/USUARIO/Desktop/MASTER/Herramientas_HTML_y_CSS/pec1/node_modules/@swc1732003408125714100 1
+82/mnt/c/Users/USUARIO/Desktop/MASTER/Herramientas_HTML_y_CSS/pec1/node_modules/@swc1732044146317537200 1
 109/mnt/c/Users/USUARIO/Desktop/MASTER/Herramientas_HTML_y_CSS/pec1/node_modules/string.prototype.padend/auto.js1731919557240695000 0
 118/mnt/c/Users/USUARIO/Desktop/MASTER/Herramientas_HTML_y_CSS/pec1/node_modules/css-tree/lib/syntax/node/SelectorList.js1731993046763906300 0
 138/mnt/c/Users/USUARIO/Desktop/MASTER/Herramientas_HTML_y_CSS/pec1/node_modules/csso/node_modules/css-tree/lib/tokenizer/OffsetToLocation.js1731993046587781500 0
@@ -5054,7 +5054,7 @@
 116/mnt/c/Users/USUARIO/Desktop/MASTER/Herramientas_HTML_y_CSS/pec1/node_modules/@babel/plugin-transform-spread/LICENSE1731933630101393200 0
 94/mnt/c/Users/USUARIO/Desktop/MASTER/Herramientas_HTML_y_CSS/pec1/node_modules/error-ex/LICENSE1731916667840240000 0
 141/mnt/c/Users/USUARIO/Desktop/MASTER/Herramientas_HTML_y_CSS/pec1/node_modules/@babel/helper-define-polyfill-provider/lib/node/dependencies.js1731933640574969900 0
-88/mnt/c/Users/USUARIO/Desktop/MASTER/Herramientas_HTML_y_CSS/pec1/dist/index.4d663569.css1732043126408955200 0
+88/mnt/c/Users/USUARIO/Desktop/MASTER/Herramientas_HTML_y_CSS/pec1/dist/index.4d663569.css1732044880273107000 0
 129/mnt/c/Users/USUARIO/Desktop/MASTER/Herramientas_HTML_y_CSS/pec1/node_modules/@babel/helpers/lib/helpers/interopRequireDefault.js1731933647567294000 0
 96/mnt/c/Users/USUARIO/Desktop/MASTER/Herramientas_HTML_y_CSS/pec1/node_modules/css-tree/cjs/utils1731993044803589600 1
 130/mnt/c/Users/USUARIO/Desktop/MASTER/Herramientas_HTML_y_CSS/pec1/node_modules/csso/node_modules/css-tree/cjs/syntax/node/Ratio.cjs1731993043306933800 0
@@ -5344,7 +5344,7 @@
 109/mnt/c/Users/USUARIO/Desktop/MASTER/Herramientas_HTML_y_CSS/pec1/node_modules/caniuse-lite/data/regions/CL.js1731916692253369200 0
 132/mnt/c/Users/USUARIO/Desktop/MASTER/Herramientas_HTML_y_CSS/pec1/node_modules/@parcel/types-internal/lib/FileCreateInvalidation.d.ts1731916681700424400 0
 96/mnt/c/Users/USUARIO/Desktop/MASTER/Herramientas_HTML_y_CSS/pec1/node_modules/get-port/readme.md1731916671249965100 0
-77/mnt/c/Users/USUARIO/Desktop/MASTER/Herramientas_HTML_y_CSS/pec1/node_modules1732003408114149500 1
+77/mnt/c/Users/USUARIO/Desktop/MASTER/Herramientas_HTML_y_CSS/pec1/node_modules1732044146309498700 1
 126/mnt/c/Users/USUARIO/Desktop/MASTER/Herramientas_HTML_y_CSS/pec1/node_modules/@babel/plugin-transform-dynamic-import/README.md1731933631586393700 0
 109/mnt/c/Users/USUARIO/Desktop/MASTER/Herramientas_HTML_y_CSS/pec1/node_modules/es-abstract/2017/SecFromTime.js1731919578466803300 0
 111/mnt/c/Users/USUARIO/Desktop/MASTER/Herramientas_HTML_y_CSS/pec1/node_modules/@swc/helpers/esm/_create_super.js1731916693157260100 0
@@ -5395,7 +5395,7 @@
 120/mnt/c/Users/USUARIO/Desktop/MASTER/Herramientas_HTML_y_CSS/pec1/node_modules/@babel/runtime/helpers/esm/superPropGet.js1731933646997412800 0
 122/mnt/c/Users/USUARIO/Desktop/MASTER/Herramientas_HTML_y_CSS/pec1/node_modules/@babel/core/lib/config/validation/options.js1731933643959972500 0
 122/mnt/c/Users/USUARIO/Desktop/MASTER/Herramientas_HTML_y_CSS/pec1/node_modules/@babel/types/lib/converters/toComputedKey.js1731933646452675000 0
-85/mnt/c/Users/USUARIO/Desktop/MASTER/Herramientas_HTML_y_CSS/pec1/node_modules/@parcel1732003408137715500 1
+85/mnt/c/Users/USUARIO/Desktop/MASTER/Herramientas_HTML_y_CSS/pec1/node_modules/@parcel1732044146343058300 1
 138/mnt/c/Users/USUARIO/Desktop/MASTER/Herramientas_HTML_y_CSS/pec1/node_modules/@babel/plugin-bugfix-firefox-class-in-computed-class-key/lib1731933633787082300 1
 138/mnt/c/Users/USUARIO/Desktop/MASTER/Herramientas_HTML_y_CSS/pec1/node_modules/posthtml-expressions/node_modules/entities/lib/maps/xml.json1732002974978821500 0
 108/mnt/c/Users/USUARIO/Desktop/MASTER/Herramientas_HTML_y_CSS/pec1/node_modules/@babel/traverse/lib/hub.js.map1731933636329177400 0
@@ -5811,7 +5811,7 @@
 124/mnt/c/Users/USUARIO/Desktop/MASTER/Herramientas_HTML_y_CSS/pec1/node_modules/@swc/core-linux-x64-gnu/swc.linux-x64-gnu.node1731916707171257800 0
 105/mnt/c/Users/USUARIO/Desktop/MASTER/Herramientas_HTML_y_CSS/pec1/node_modules/es-abstract/2019/ToUint8.js1731919583674634300 0
 122/mnt/c/Users/USUARIO/Desktop/MASTER/Herramientas_HTML_y_CSS/pec1/node_modules/@parcel/watcher-linux-x64-glibc/package.json1731916666865292800 0
-92/mnt/c/Users/USUARIO/Desktop/MASTER/Herramientas_HTML_y_CSS/pec1/dist/index.4d663569.css.map1732043126471478300 0
+92/mnt/c/Users/USUARIO/Desktop/MASTER/Herramientas_HTML_y_CSS/pec1/dist/index.4d663569.css.map1732044880292631300 0
 132/mnt/c/Users/USUARIO/Desktop/MASTER/Herramientas_HTML_y_CSS/pec1/node_modules/@babel/helpers/lib/helpers/iterableToArrayLimit.js.map1731933648018729300 0
 139/mnt/c/Users/USUARIO/Desktop/MASTER/Herramientas_HTML_y_CSS/pec1/node_modules/@parcel/core/test/fixtures/common-targets-ignore/package.json1731916698877651500 0
 115/mnt/c/Users/USUARIO/Desktop/MASTER/Herramientas_HTML_y_CSS/pec1/node_modules/caniuse-lite/data/features/pointer.js1731916703812951600 0
@@ -6758,7 +6758,7 @@
 120/mnt/c/Users/USUARIO/Desktop/MASTER/Herramientas_HTML_y_CSS/pec1/node_modules/@swc/helpers/esm/_await_async_generator.js1731916691103787800 0
 113/mnt/c/Users/USUARIO/Desktop/MASTER/Herramientas_HTML_y_CSS/pec1/node_modules/css-tree/lib/syntax/node/AnPlusB.js1731993045167930600 0
 114/mnt/c/Users/USUARIO/Desktop/MASTER/Herramientas_HTML_y_CSS/pec1/node_modules/es-abstract/2017/CompletionRecord.js1731919569074368900 0
-96/mnt/c/Users/USUARIO/Desktop/MASTER/Herramientas_HTML_y_CSS/pec1/node_modules/.package-lock.json1732003408715890900 0
+96/mnt/c/Users/USUARIO/Desktop/MASTER/Herramientas_HTML_y_CSS/pec1/node_modules/.package-lock.json1732044148267612000 0
 116/mnt/c/Users/USUARIO/Desktop/MASTER/Herramientas_HTML_y_CSS/pec1/node_modules/@parcel/core/src/public/BundleGraph.js1731916690168417300 0
 110/mnt/c/Users/USUARIO/Desktop/MASTER/Herramientas_HTML_y_CSS/pec1/node_modules/glob/dist/esm/has-magic.d.ts.map1731919565009875200 0
 121/mnt/c/Users/USUARIO/Desktop/MASTER/Herramientas_HTML_y_CSS/pec1/node_modules/babel-plugin-polyfill-regenerator/README.md1731933630146628000 0
@@ -7385,7 +7385,7 @@
 128/mnt/c/Users/USUARIO/Desktop/MASTER/Herramientas_HTML_y_CSS/pec1/node_modules/@babel/plugin-transform-optional-catch-binding/lib1731933631474582800 1
 121/mnt/c/Users/USUARIO/Desktop/MASTER/Herramientas_HTML_y_CSS/pec1/node_modules/css-tree/cjs/syntax/function/expression.cjs1731993041003107000 0
 105/mnt/c/Users/USUARIO/Desktop/MASTER/Herramientas_HTML_y_CSS/pec1/node_modules/npm-run-all/lib/run-task.js1731919564825647600 0
-95/mnt/c/Users/USUARIO/Desktop/MASTER/Herramientas_HTML_y_CSS/pec1/node_modules/@msgpackr-extract1732003408141719200 1
+95/mnt/c/Users/USUARIO/Desktop/MASTER/Herramientas_HTML_y_CSS/pec1/node_modules/@msgpackr-extract1732044146345055800 1
 131/mnt/c/Users/USUARIO/Desktop/MASTER/Herramientas_HTML_y_CSS/pec1/node_modules/css-select/lib/esm/pseudo-selectors/subselects.js.map1731993040699493200 0
 118/mnt/c/Users/USUARIO/Desktop/MASTER/Herramientas_HTML_y_CSS/pec1/node_modules/es-abstract/2023/Number/sameValueZero.js1731919578455807300 0
 124/mnt/c/Users/USUARIO/Desktop/MASTER/Herramientas_HTML_y_CSS/pec1/node_modules/@babel/types/lib/definitions/typescript.js.map1731933648445131200 0
@@ -7580,7 +7580,7 @@
 131/mnt/c/Users/USUARIO/Desktop/MASTER/Herramientas_HTML_y_CSS/pec1/node_modules/caniuse-lite/data/features/focusin-focusout-events.js1731916699714655400 0
 137/mnt/c/Users/USUARIO/Desktop/MASTER/Herramientas_HTML_y_CSS/pec1/node_modules/lmdb/dependencies/lmdb-data-v1/libraries/liblmdb/mdb_dump.c1731916689074995700 0
 143/mnt/c/Users/USUARIO/Desktop/MASTER/Herramientas_HTML_y_CSS/pec1/node_modules/@swc/helpers/cjs/_class_check_private_static_field_descriptor.cjs1731916681228232200 0
-83/mnt/c/Users/USUARIO/Desktop/MASTER/Herramientas_HTML_y_CSS/pec1/node_modules/@lmdb1732003408144714900 1
+83/mnt/c/Users/USUARIO/Desktop/MASTER/Herramientas_HTML_y_CSS/pec1/node_modules/@lmdb1732044146348053400 1
 100/mnt/c/Users/USUARIO/Desktop/MASTER/Herramientas_HTML_y_CSS/pec1/node_modules/concat-map/test/map.js1731919558883304000 0
 122/mnt/c/Users/USUARIO/Desktop/MASTER/Herramientas_HTML_y_CSS/pec1/node_modules/es-abstract/2015/IntegerIndexedElementGet.js1731919572604912000 0
 109/mnt/c/Users/USUARIO/Desktop/MASTER/Herramientas_HTML_y_CSS/pec1/node_modules/caniuse-lite/data/regions/BI.js1731916689937358700 0
