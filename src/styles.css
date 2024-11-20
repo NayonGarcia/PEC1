@@ -188,3 +188,25 @@ button.next {
 	list-style: none;
 	display: flex;
 }
+
+a.menu-nav, .menu-pie {
+	text-decoration: none;
+	color: #FFF;
+}
+
+.menu-nav:hover {
+	color: #ECE2C6;
+}
+
+.menu-pie:hover {
+	color: #10A5F5;
+}
+
+.menu-pie:hover img {
+	background-color: #10A5F5;
+}
+
+.a-nada {
+	text-decoration: none;
+}
+
