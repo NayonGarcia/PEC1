@@ -27,29 +27,71 @@ header {
 	z-index: 20;
 	color: #FFF;
 	font-weight: 700;
+	min-height: 130px;
 }
+
+
 
 .logo {
 	grid-column: 1 / 2;
 	margin-top: 0;
 	margin-left: 1.5rem;
-	margin-bottom: 0;	
+	margin-bottom: 0;
+}
+.logo > a > img {
+	max-width: 100px;
+	max-height: 100px;
+}
+
+@media  (min-width: 500px) {
+	.logo > a > img {
+		max-width: 120px;
+		max-height: 120px;
+	}
 }
 
 .menu {
 	grid-column: 2 / 2;
-	font-size: 0.8rem;
 	display: flex;
 	align-items: center;
 	justify-content: flex-end;
+	font-size: 0.6rem;
 }
 
+@media (min-width: 500px) {
+	.menu {
+		font-size: 0.8rem;
+	}
+}
+
+
+
 .encabezado {
+  width: 100%;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+}
+
+@media (min-width: 500px) {
+	.encabezado {
+  width: 100%;
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+}
+}
+
+@media (min-width: 800px) {
+	.encabezado {
   width: 100%;
   max-width: 70%;
   margin-left: auto;
   margin-right: auto;
   display: grid;
+}
 }
 
 nav {
@@ -194,6 +236,32 @@ button.next {
 
 .pie {
   	width: 100%;
+	max-width: 90%;
+  	margin-left: auto;
+  	margin-right: auto;
+  	display: grid;
+	padding: 0.8rem;
+	font-size: 0.6rem;
+	line-height: 0.8rem;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+@media (min-width: 500px) {
+	.pie {
+  	width: 100%;
+	max-width: 90%;
+  	margin-left: auto;
+  	margin-right: auto;
+  	display: grid;
+	padding: 1rem;
+	font-size: 0.7rem;
+	line-height: 1rem;
+}
+}
+
+@media (min-width: 800px) {
+	.pie {
+  	width: 100%;
 	max-width: 70%;
   	margin-left: auto;
   	margin-right: auto;
@@ -201,7 +269,7 @@ button.next {
 	padding: 1rem;
 	font-size: 0.7rem;
 	line-height: 1rem;
-	grid-template-columns: 1fr 1fr 1fr;
+}
 }
 
 
@@ -215,6 +283,13 @@ button.next {
 
 .datos > ul {
 	list-style: none;
+	padding-left: 0;
+}
+
+@media (min-width: 500px) {
+	.datos > ul {
+	padding-left: auto;
+}
 }
 
 .logo-pie  {
@@ -223,7 +298,18 @@ button.next {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	width: 100%;
+}
+
+.logo-pie > img {
+	max-width: 50px;
+	max-height: 50px;
+}
+
+@media (min-width: 500px) {
+	.logo-pie > img {
+	max-width: 80px;
+	max-height: 80px;
+}
 }
 
 .redes {
@@ -351,6 +437,11 @@ article > h2 {
 	font-size: 2rem;
 }
 
+article > h3 {
+	padding-left: 1.5rem;
+	padding-right: 1.5rem;
+}
+
 article > p {
 	padding-left: 1.5rem;
 	padding-right: 1.5rem;
@@ -359,6 +450,9 @@ article > p {
 
 article > a > img {
 		max-width: 300px;
+		width: 100%;
+		display: block;
+
 	}
 
 
@@ -389,16 +483,24 @@ a.article {
 	}
 	.bloques > article {
 		margin-bottom: 0;
-		max-width: 255px
+		max-width: 255px;
 	}
 	article > a > img {
 		max-width: 255px;
+		width: 100%;
+		display: block;
 	}
 	
 	article > h2 {
 		font-size: 1.5rem;
 		padding-left: 1rem;
 		padding-right: 1rem;
+	}
+	
+	article > h3 {
+		padding-left: 1rem;
+		padding-right: 1rem;
+
 	}
 	
 	article > p {
@@ -421,10 +523,17 @@ a.article {
 	article > a > img {
 		max-height: 200px;
 		max-width: 230px;
+		width: 100%;
+		display: block;
 	}
 	
 	article > h2 {
 		font-size: 1.5rem;
+		padding-left: 0.8rem;
+		padding-right: 0.8rem;
+	}
+	
+	article > h3 {
 		padding-left: 0.8rem;
 		padding-right: 0.8rem;
 	}
