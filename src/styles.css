@@ -275,6 +275,9 @@ a.menu-nav, .menu-pie {
 	font-size: 1.5rem;
 	color: #FFF;
 	text-shadow: 2px 2px 10px #000;
+	padding-left: 1rem;
+	padding-right: 1rem;
+	line-height: 2.5rem;
 }
 
 .portada-detalle {
@@ -290,6 +293,9 @@ a.menu-nav, .menu-pie {
 	font-size: 1.5rem;
 	color: #FFF;
 	text-shadow: 1px 1px 10px #000;
+	padding-left: 1rem;
+	padding-right: 1rem;
+	line-height: 2.5rem;
 }
 
 .portada-presentacion {
@@ -305,6 +311,28 @@ a.menu-nav, .menu-pie {
 	font-size: 1.5rem;
 	color: #FFF;
 	text-shadow: 2px 2px 10px #000;
+	padding-left: 1rem;
+	padding-right: 1rem;
+	line-height: 2.5rem;
+}
+
+.portada-enlaces {
+  	background-image: url("img/fuente.jpg");
+ 	background-size: cover;
+  	background-position: center;
+  	padding-top: 4rem;
+  	padding-bottom: 4rem;
+  	margin-left: 0;
+  	margin-right: 0;
+  	max-width: 100%;
+	text-align: center;
+	font-size: 1.5rem;
+	color: #FFF;
+	text-shadow: 2px 2px 10px #000;
+	padding-left: 1rem;
+	padding-right: 1rem;
+	line-height: 2.5rem;
+}
 
 
 /* Tarjetas de categorías */
@@ -405,4 +433,26 @@ a.article {
 		font-size: 0.9rem;
 		line-height: 1.7rem;
 	}
+}
+
+iframe {
+	height: 150px;
+}
+
+@media (min-width: 500px) {
+	iframe {
+		height: 350px;
+	}
+	
+}
+
+.fuentes {
+	text-decoration: none;
+	color: #070040;
+}
+.fuentes:visited {
+	color: #070040;
+}
+.fuentes:hover {
+	color: #10A5F5;
 }
