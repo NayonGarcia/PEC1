@@ -246,6 +246,22 @@ a.menu-nav, .menu-pie {
 	text-shadow: 2px 2px 10px #000;
 }
 
+.portada-detalle {
+  	background-image: url("img/parque_02.jpg");
+ 	background-size: cover;
+  	background-position: center;
+  	padding-top: 4rem;
+  	padding-bottom: 4rem;
+  	margin-left: 0;
+  	margin-right: 0;
+  	max-width: 100%;
+	text-align: center;
+	font-size: 1.5rem;
+	color: #FFF;
+	text-shadow: 1px 1px 10px #000;
+}
+
+
 /* Tarjetas de categorías */
 
 article {
