@@ -299,6 +299,9 @@ article > p {
 	line-height: 2rem;
 }
 
+article > a > img {
+		max-width: 400px;
+	}
 
 
 a.article {
