@@ -135,6 +135,14 @@ button.next {
 	margin-right: auto;
 }
 
+.contenedor-texto {
+	width: 100%;
+	max-width: 90%;
+	margin-top: 3rem;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 @media (min-width: 500px) {
 	.contenedor {
 		width: 100%;
@@ -153,6 +161,13 @@ button.next {
 		margin-right: auto;
 		margin-top: 3rem;
 	}
+	.contenedor-texto {
+	width: 100%;
+	max-width: 50%;
+	margin-top: 3rem;
+	margin-left: auto;
+	margin-right: auto;
+}
 }
 
 
@@ -320,11 +335,16 @@ a.article {
 	}
 	
 	article > h2 {
-		font-size: 1.3rem;
+		font-size: 1.5rem;
+		padding-left: 1rem;
+		padding-right: 1rem;
 	}
 	
 	article > p {
-		font-size: 0.8rem;
+		font-size: 0.9rem;
+		padding-left: 1rem;
+		padding-right: 1rem;
+		line-height: 2rem;
 	}
 }
 
@@ -344,9 +364,12 @@ a.article {
 	
 	article > h2 {
 		font-size: 1.5rem;
+		padding-left: 0.8rem;
+		padding-right: 0.8rem;
 	}
 	
 	article > p {
 		font-size: 0.9rem;
+		line-height: 1.7rem;
 	}
 }
