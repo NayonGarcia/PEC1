@@ -1,0 +1,2 @@
+document.addEventListener("DOMContentLoaded",function(){let e=document.querySelector(".slides"),t=document.querySelectorAll(".slide").length,n=document.querySelector(".prev"),c=document.querySelector(".next"),o=0;function r(t){e.style.transform=`translateX(${-(100*t)}vw)`}function d(){r(o=(o+1)%t)}c.addEventListener("click",d),n.addEventListener("click",function(){r(o=(o-1+t)%t)}),setInterval(d,5e3),r(o)});
+//# sourceMappingURL=index.0a463f36.js.map
