@@ -52,15 +52,15 @@ header {
 
 .menu {
 	grid-column: 2 / 2;
-	display: flex;
 	align-items: center;
-	justify-content: flex-end;
 	font-size: 0.6rem;
 }
 
 @media (min-width: 500px) {
 	.menu {
 		font-size: 0.8rem;
+		display: flex;
+		justify-content: flex-end;
 	}
 }
 
@@ -175,6 +175,9 @@ button.next {
 	margin-top: 3rem;
 	margin-left: auto;
 	margin-right: auto;
+	display: flex;
+	justify-content: center;
+	
 }
 
 .contenedor-texto {
@@ -183,6 +186,7 @@ button.next {
 	margin-top: 3rem;
 	margin-left: auto;
 	margin-right: auto;
+	margin-bottom: 3rem;
 	font-size: 0.9rem;
 	line-height: 1.8rem;
 }
