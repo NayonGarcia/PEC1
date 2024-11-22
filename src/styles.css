@@ -295,6 +295,11 @@ a.article {
 	color: #10A5F5;
 }
 	
+	.bloques {
+		display: block;
+		margin-bottom: 4rem;
+		justify-content: center;
+	}
 
 @media (min-width: 500px) {
 
