@@ -338,10 +338,10 @@ a.article {
 	}
 	
 	article > h2 {
-		font-size: 1.3rem;
+		font-size: 1.5rem;
 	}
 	
 	article > p {
-		font-size: 0.8rem;
+		font-size: 0.9rem;
 	}
 }
