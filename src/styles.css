@@ -292,10 +292,10 @@ a.article {
 	}
 	.bloques > article {
 		margin-bottom: 0;
+		max-width: 255px
 	}
 	article > a > img {
-		max-height: auto;
-		max-width: 267.85px;
+		max-width: 255px;
 	}
 	
 	article > h2 {
@@ -312,6 +312,9 @@ a.article {
 		grid-template-columns: repeat(3, 30%);
 		grid-auto-rows: minmax(500px);
 		gap: 30px;	
+	}
+	article {
+		max-width: 230px;
 	}
 	article > a > img {
 		max-height: 200px;
