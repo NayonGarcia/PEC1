@@ -144,8 +144,13 @@ main {
 .slide {
     flex: 1 0 100%;
     height: 100%;
-    background-size: cover;
-    background-position: center;
+    width: 100%;
+}
+
+.slide img, picture {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
 }
 
 button {
@@ -199,16 +204,18 @@ button.next {
 		margin-right: auto;
 		margin-top: 3rem;
 	}
-	
-	.contenedor-texto {
-	width: 100%;
-	max-width: 75%;
-	margin-top: 3rem;
-	margin-left: auto;
-	margin-right: auto;
-	font-size: 1rem;
-	line-height: 2rem;
 }
+
+@media (min-width: 500px) {
+	.contenedor-texto {
+		width: 100%;
+		max-width: 75%;
+		margin-top: 3rem;
+		margin-left: auto;
+		margin-right: auto;
+		font-size: 1rem;
+		line-height: 2rem;
+	}
 }
 
 
@@ -221,22 +228,57 @@ button.next {
 		margin-right: auto;
 		margin-top: 3rem;
 	}
+}
+	
+@media (min-width: 900px) {
 	.contenedor-texto {
-	width: 100%;
-	max-width: 50%;
-	margin-top: 3rem;
-	margin-left: auto;
-	margin-right: auto;
-	font-size: 1rem;
-	line-height: 2rem;
+		width: 100%;
+		max-width: 50%;
+		margin-top: 3rem;
+		margin-left: auto;
+		margin-right: auto;
+		font-size: 1rem;
+		line-height: 2rem;
+	}
 }
-}
-
 
 .presentacion {
-	margin-top: 5rem;
+	margin-top: 1.5rem;
 	margin-bottom: 5rem;
 }
+
+.presentacion p {
+	line-height: 1.8rem;
+	font-size: 0.9rem;
+}
+
+.presentacion h1 {
+	font-size: 1.8rem;
+}
+
+.presentacion h1 {
+	font-size: 1.7rem;
+	line-height: 3.4rem;
+}
+
+@media (min-width: 500px) {
+	.presentacion {
+		margin-top: 5rem;
+		margin-bottom: 5rem;
+	}
+	
+	.presentacion p {
+		line-height: 2rem;
+		font-size: 1rem;
+	}
+	
+	.presentacion h1 {
+		font-size: 2rem;
+		line-height: 4rem;
+	}
+}
+
+
 
 .pie {
   	width: 100%;
@@ -353,79 +395,166 @@ a.menu-nav, .menu-pie {
 }
 
 .portada-categoria {
-  	background-image: url("img/duna-portada.png");
+  	background-image: url("img/duna-portada_500.jpg");
  	background-size: cover;
   	background-position: top;
-  	padding-top: 4rem;
-  	padding-bottom: 4rem;
+  	padding-top: 2rem;
+  	padding-bottom: 2rem;
   	margin-left: 0;
   	margin-right: 0;
   	max-width: 100%;
 	text-align: center;
-	font-size: 1.5rem;
+	font-size: 1.2rem;
 	color: #FFF;
 	text-shadow: 2px 2px 10px #000;
 	padding-left: 1rem;
 	padding-right: 1rem;
-	line-height: 2.5rem;
+	line-height: 2rem;
+}
+
+@media (min-width: 500px) {
+	.portada-categoria {
+  		background-image: url("img/duna-portada_900.jpg");
+  		padding-top: 4rem;
+  		padding-bottom: 4rem;
+		font-size: 1.5rem;
+		line-height: 2.5rem;
+	}
+}
+
+@media (min-width: 800px) {
+	.portada-categoria {
+  		background-image: url("img/duna-portada_1200.jpg");
+  	}
 }
 
 .portada-detalle {
-  	background-image: url("img/parque_02.jpg");
+  	background-image: url("img/pavo_500.jpg");
  	background-size: cover;
   	background-position: center;
-  	padding-top: 4rem;
-  	padding-bottom: 4rem;
+  	padding-top: 2rem;
+  	padding-bottom: 2rem;
   	margin-left: 0;
   	margin-right: 0;
   	max-width: 100%;
 	text-align: center;
-	font-size: 1.5rem;
+	font-size: 1.2rem;
 	color: #FFF;
 	text-shadow: 1px 1px 10px #000;
 	padding-left: 1rem;
 	padding-right: 1rem;
-	line-height: 2.5rem;
+	line-height: 2rem;
+}
+
+@media (min-width: 500px) {
+	.portada-detalle {
+  		background-image: url("img/pavo_900.jpg");
+  		padding-top: 4rem;
+  		padding-bottom: 4rem;
+		font-size: 1.5rem;
+		line-height: 2.5rem;
+	}
+}
+
+@media (min-width: 900px) {
+	.portada-detalle {
+  		background-image: url("img/pavo_1400.jpg");
+		background-position: 50% 35%; 
+  	}
 }
 
 .portada-presentacion {
-  	background-image: url("img/guardamar_ruta.jpg");
+  	background-image: url("img/guardamar_ruta_500.jpg");
  	background-size: cover;
   	background-position: top;
-  	padding-top: 4rem;
-  	padding-bottom: 4rem;
+  	padding-top: 2rem;
+  	padding-bottom: 2rem;
   	margin-left: 0;
   	margin-right: 0;
   	max-width: 100%;
 	text-align: center;
-	font-size: 1.5rem;
+	font-size: 1.2rem;
 	color: #FFF;
 	text-shadow: 2px 2px 10px #000;
 	padding-left: 1rem;
 	padding-right: 1rem;
-	line-height: 2.5rem;
+	line-height: 2rem;
+}
+
+@media (min-width: 500px) {
+	.portada-presentacion {
+  		background-image: url("img/guardamar_ruta_900.jpg");
+  		padding-top: 4rem;
+  		padding-bottom: 4rem;
+		font-size: 1.5rem;
+		line-height: 2.5rem;
+	}
+}
+
+@media (min-width: 800px) {
+	.portada-presentacion {
+  		background-image: url("img/guardamar_ruta_1920.jpg");
+  	}
 }
 
 .portada-enlaces {
-  	background-image: url("img/fuente.jpg");
+  	background-image: url("img/fuente_500.jpg");
  	background-size: cover;
   	background-position: center;
-  	padding-top: 4rem;
-  	padding-bottom: 4rem;
+  	padding-top: 2rem;
+  	padding-bottom: 2rem;
   	margin-left: 0;
   	margin-right: 0;
   	max-width: 100%;
 	text-align: center;
-	font-size: 1.5rem;
+	font-size: 1.2rem;
 	color: #FFF;
 	text-shadow: 2px 2px 10px #000;
 	padding-left: 1rem;
 	padding-right: 1rem;
-	line-height: 2.5rem;
+	line-height: 2rem;
 }
 
+@media (min-width: 500px) {
+	.portada-enlaces {
+  		background-image: url("img/fuente_900.jpg");
+  		padding-top: 4rem;
+  		padding-bottom: 4rem;
+		font-size: 1.5rem;
+		line-height: 2.5rem;
+	}
+}
+
+@media (min-width: 800px) {
+	.portada-enlaces {
+  		background-image: url("img/fuente_1200.jpg");
+  	}
+}
 
 /* Tarjetas de categorías */
+
+.categoria-cont {
+	width: 100%;
+	max-width: 90%;
+	margin-top: 3rem;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	justify-content: center;
+}
+@media (min-width: 500px) {
+	.categoria-cont {
+		width: 100%;
+		max-width: 90%;
+		
+	}
+}
+@media (min-width: 950px) {
+	.contenedor-cont {
+		width: 100%;
+		max-width: 80%;
+	}
+}
 
 article {
 	border: 1px solid #070040;
@@ -438,7 +567,7 @@ article > h2 {
 	padding-left: 1.5rem;
 	padding-right: 1.5rem;
 	line-height: 2rem;
-	font-size: 2rem;
+	font-size: 1.5rem;
 }
 
 article > h3 {
@@ -449,14 +578,15 @@ article > h3 {
 article > p {
 	padding-left: 1.5rem;
 	padding-right: 1.5rem;
-	line-height: 2rem;
+	line-height: 1.7rem;
+	font-size: 0.9rem;
 }
 
 article > a > img {
 		max-width: 300px;
 		width: 100%;
+		height: auto;
 		display: block;
-
 	}
 
 
@@ -469,13 +599,15 @@ a.article {
 	color: #10A5F5;
 }
 	
-	.bloques {
-		display: block;
-		margin-bottom: 4rem;
-		justify-content: center;
-	}
+.bloques {
+	display: block;
+	margin-bottom: 4rem;
+	justify-content: center;
+	max-width: 90%;
+}
 
-@media (min-width: 500px) {
+
+@media (min-width: 600px) {
 
 	.bloques {
 		display: grid;
@@ -487,11 +619,12 @@ a.article {
 	}
 	.bloques > article {
 		margin-bottom: 0;
-		max-width: 255px;
+		max-width: 300px;
 	}
 	article > a > img {
-		max-width: 255px;
+		max-width: 300px;
 		width: 100%;
+		height: auto;
 		display: block;
 	}
 	
@@ -515,19 +648,19 @@ a.article {
 	}
 }
 
-@media (min-width: 800px) {
+@media (min-width: 950px) {
 	.bloques {
 		grid-template-columns: repeat(3, 30%);
 		grid-auto-rows: minmax(500px);
 		gap: 30px;	
 	}
 	article {
-		max-width: 230px;
+		max-width: 300px;
 	}
 	article > a > img {
-		max-height: 200px;
-		max-width: 230px;
+		max-width: 300px;
 		width: 100%;
+		height: auto;
 		display: block;
 	}
 	
@@ -545,6 +678,28 @@ a.article {
 	article > p {
 		font-size: 0.9rem;
 		line-height: 1.7rem;
+	}
+}
+
+.recomendados {
+	width: 100%;
+	max-width: 80%;
+	margin-top: 3rem;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+@media (min-width: 500px) {
+	.recomendados {
+		width: 100%;
+		max-width: 75%;
+		
+	}
+}
+@media (min-width: 950px) {
+	.recomendados {
+		width: 100%;
+		max-width: 50%;
 	}
 }
 
@@ -569,3 +724,104 @@ iframe {
 .fuentes:hover {
 	color: #10A5F5;
 }
+
+
+/* Mapa del sitio */
+
+.mapa-del-sitio {
+  	width: 100%;
+	max-width: 90%;
+  	margin-left: auto;
+  	margin-right: auto;
+	padding: 0.8rem;
+	font-size: 0.75rem;
+	line-height: 1.6rem;
+}
+
+@media (min-width: 500px) {
+	.mapa-del-sitio {
+  	width: 100%;
+	max-width: 90%;
+  	margin-left: auto;
+  	margin-right: auto;
+	padding: 1rem;
+	font-size: 0.9rem;
+	line-height: 2rem;
+}
+}
+
+@media (min-width: 800px) {
+	.mapa-del-sitio {
+  	width: 100%;
+	max-width: 60%;
+  	margin-left: auto;
+  	margin-right: auto;
+	padding: 1rem;
+	font-size: 0.9rem;
+	line-height: 2rem;
+}
+}
+
+.mapa-del-sitio ul {
+	list-style: none;
+	padding: 0;
+	position: relative;
+}
+
+.mapa-del-sitio li:hover ul {
+	display: block;
+}
+
+.mapa-del-sitio li ul {
+	display: none;
+	position: absolute;
+	left: 30%;
+	top: -35%;
+	margin: 0;
+	padding: 0;
+	line-height: 1.7rem;
+}
+
+.mapa-del-sitio li ul li {
+	border: thin solid #10A5F5;
+	padding: 0.2rem;
+}
+
+.mapa-del-sitio a {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+.clip {
+	clip-path: url(#logo-clip);
+	-webkit-clip-path: url(#logo-clip);
+}
+
+.conteneclip {
+	max-width: 200px;
+	max-height: 200px;
+	width: 100%;
+	display: flex;
+	align-content: center;
+	margin-top: 5rem;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 3rem;
+	height: 100%;
+}
+
+.conteneclip img {
+	max-width: 200px;
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+	align-content: center;
+	max-height: 200px;
+}
+
+
+
+
+
+
+
