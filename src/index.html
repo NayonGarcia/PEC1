@@ -9,10 +9,7 @@
 <meta name="keywords" content="Guardamar del Segura, turismo, playa, pinada, viajes, escapada">
 <meta name="copyright" content="UOC 2024">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="styles.css">
+<link rel="preload stylesheet" href="styles.css">
 <script src="app.js" defer></script>
 <title>Guardamar del Segura</title>
 </head>
@@ -29,31 +26,35 @@
     
 	<div class="slides">
 <div class="slide">
-	<img srcset= "img/guardamar_01_1200.jpg 1200w, 
-				 img/guardamar_01_900.jpg 900w, 
-				 img/guardamar_01_500.jpg 500w"
+	<img srcset= "img/guardamar_01_1200.webp 1200w, 
+				 img/guardamar_01_900.webp 900w, 
+				 img/guardamar_01_500.webp 500w"
 		 sizes= "(min-width: 800px) 1200vw,
 				 (min-width: 500px) 900vw,
 				 500vw"
-		 src="img/guardamar_01_1200.jpg"
+		 src="img/guardamar_01_1200.webp"
+		 width="1200"
+		 height="801"
 		 alt="Guardamar del Segura visto desde el mar">
 </div>
 <div class="slide">
-	<img srcset= "img/faro_1200.jpg 1200w, 
-				 img/faro_900.jpg 900w, 
-				 img/faro_500.jpg 500w"
+	<img srcset= "img/faro_1200.webp 1200w, 
+				 img/faro_900.webp 900w, 
+				 img/faro_500.webp 500w"
 		 sizes= "(min-width: 800px) 1200vw,
 				 (min-width: 500px) 900vw,
 				 500vw"
-		 src="img/faro_1200.jpg"
+		 src="img/faro_1200.webp"
+		 width="1200"
+		 height="801"
 		 alt="Faro de Guardamar del Segura">
 </div>
 <div class="slide">
 	<picture>
-		<source srcset="img/guardamar_ruta_1920.jpg" media="(min-width: 800px)"> 
-		<source srcset="img/guardamar_ruta_900.jpg" media="(min-width: 500px)">
-		<source srcset="img/guardamar_ruta_500.jpg" media= "(max-width: 499px)">
-		<img src="img/guardamar_ruta_1920.jpg" alt="Camino de la pinada a las dunas">
+		<source srcset="img/guardamar_ruta_1920.webp" media="(min-width: 800px)"> 
+		<source srcset="img/guardamar_ruta_900.webp" media="(min-width: 500px)">
+		<source srcset="img/guardamar_ruta_500.webp" media= "(max-width: 499px)">
+		<img src="img/guardamar_ruta_1920.webp" width="1920" height="872" alt="Camino de la pinada a las dunas">
 	</picture>
 </div>
 	</div>
@@ -74,7 +75,9 @@
 		<div class="conteneclip">
 
 	<img class="clip"
-		 src="img/playa.png"
+		 src="img/playa.webp"
+		 width="497"
+		 height="193"
 	 	 alt="Imagen de la playa dentro de las letras Guardamar amar"
 	 	 title="Amar Guardamar">
 

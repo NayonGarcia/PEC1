@@ -9,9 +9,7 @@
 <meta name="keywords" content="Guardamar del Segura, turismo, playa, pinada, viajes, escapada">
 <meta name="copyright" content="UOC 2024">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&display=swap" rel="stylesheet">
+<link rel="preload" href="img/guardamar_ruta_500.webp" as="image">
 <link rel="stylesheet" href="styles.css">
 <script src="app.js" async></script>
 <title>Bienvenido a Guardamar del Segura</title>
@@ -44,23 +42,31 @@
 		
 		
 <p>Guardamar del Segura, situado en la Costa Blanca de Alicante, es un destino que combina playas paradisíacas, una rica herencia histórica y paisajes naturales únicos. Este pequeño pero vibrante pueblo mediterráneo es perfecto para quienes buscan disfrutar del mar, explorar la cultura local y conectar con la naturaleza. A continuación, te invitamos a conocer los puntos más destacados de Guardamar.</p>
-		
-<iframe width="100%" src="https://www.youtube.com/embed/umcbyjPZIEU?si=iBD5UtwxrHRiK-M5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy"></iframe>
+
+	
+<lite-youtube videoid="umcbyjPZIEU" style="background-image: url('https://img.youtube.com/vi/umcbyjPZIEU/hqdefault.jpg');">
+  <a href="https://www.youtube.com/watch?v=umcbyjPZIEU" class="lyt-playbtn" title="Play Video">
+    <span class="lyt-visually-hidden">Vídeo: GUARDAMAR DEL SEGURA. Alicante pueblo a pueblo</span>
+  </a>
+</lite-youtube>
+
 		
 <h2>Playas y dunas</h2>
 		
 <p>Guardamar cuenta con más de 11 kilómetros de playas de arena fina, rodeadas por dunas protegidas que forman un entorno único en la región. Destacan playas como La Roqueta, ideal para familias, y El Moncayo, más tranquila y con un paisaje natural incomparable. El sistema dunar de Guardamar es uno de los mejor conservados en España, gracias a los pinares que se plantaron en el siglo XIX para frenar la desertificación.</p>
 		
-<img srcset= "img/duna_1200.jpg 1200w, 
-				 img/duna_900.jpg 900w, 
-				 img/duna_500.jpg 500w"
+<img srcset= "img/duna_1200.webp 1200w, 
+				 img/duna_900.webp 900w, 
+				 img/duna_500.webp 500w"
 	 sizes= "(min-width: 800px) 1200vw,
 				 (min-width: 500px) 900vw,
 				 500vw"
-	 src="img/duna_900.jpg"
+	 src="img/duna_900.webp"
+	 class="fija"
 	 alt="Foto de una de las dunas de Guardamar"
 	 title="Duna"
-	 width="100%"
+	 width="900"
+	 height="599"
 	 loading="lazy">
 		
 <h2>Un pueblo con historia</h2>
@@ -68,10 +74,10 @@
 <p>Guardamar es también un lugar donde la historia cobra vida. En el corazón del pueblo se encuentra el castillo medieval, que ofrece vistas panorámicas de la zona. Además, el yacimiento fenicio de La Fonteta es uno de los enclaves arqueológicos más importantes de la península, testigo de la influencia de antiguas civilizaciones en este rincón del Mediterráneo.</p>
 		
 <picture>
-	<source srcset="img/castillo_1200.jpg" media="(min-width: 800px)"> 
-	<source srcset="img/castillo_900.jpg" media="(min-width: 500px)">
-	<source srcset="img/castillo_500.jpg" media= "(max-width: 499px)">
-	<img src="img/castillo_900.jpg" alt="Foto del castillo de Guardamar" title="Castillo de Guardamar" width="100%" loading="lazy">
+	<source srcset="img/castillo_1200.webp" media="(min-width: 800px)"> 
+	<source srcset="img/castillo_900.webp" media="(min-width: 500px)">
+	<source srcset="img/castillo_500.webp" media= "(max-width: 499px)">
+	<img src="img/castillo_900.webp" class="fija" alt="Foto del castillo de Guardamar" title="Castillo de Guardamar" width="900" height="675" loading="lazy">
 </picture>
 		
 		
@@ -79,16 +85,18 @@
 		
 <p>El Parque Reina Sofía es un oasis verde donde disfrutar de la tranquilidad, con sus lagos, cascadas y una rica fauna. Por otro lado, el Parque Alfonso XIII invita a recorrer senderos entre pinos y eucaliptos, siendo perfecto para los amantes del senderismo. Además, la desembocadura del río Segura crea un humedal único que es hogar de numerosas aves.</p>
 		
-<img srcset= "img/guardamar_02_1200.jpg 1200w, 
-				 img/guardamar_02_900.jpg 900w, 
-				 img/guardamar_02_500.jpg 500w"
+<img srcset= "img/guardamar_02_1200.webp 1200w, 
+				 img/guardamar_02_900.webp 900w, 
+				 img/guardamar_02_500.webp 500w"
 	 sizes= "(min-width: 800px) 1200vw,
 				 (min-width: 500px) 900vw,
 				 500vw"
-	 src="img/guardamar_02_1200.jpg"
+	 src="img/guardamar_02_1200.webp"
+	 class="fija"
 	 alt="Foto dl parque Alfonso X El Sabio"
 	 title="Camino en el parque Alfonso X El Sabio"
-	 width="100%"
+	 width="1200"
+	 height="801"
 	 loading="lazy">
 
 		
@@ -98,16 +106,18 @@
 
 <p>Los paisajes, la gente y las actividades deportivas y culturales que ofrece la localidad, convierten Guardamar en un destino turístico perfecto para toda la familia.</p>
 		
-<img srcset= "img/parque_02_1200.jpg 1200w, 
-				 img/parque_02_900.jpg 900w, 
-				 img/parque_02_500.jpg 500w"
+<img srcset= "img/parque_02_1200.webp 1200w, 
+				 img/parque_02_900.webp 900w, 
+				 img/parque_02_500.webp 500w"
 	 sizes= "(min-width: 800px) 1200vw,
 				 (min-width: 500px) 900vw,
 				 500vw"
-	 src="img/parque_02_1200.jpg"
+	 src="img/parque_02_1200.webp"
+	 class="fija"
 	 alt="Foto del parque Reina Sofía de Guardamar"
 	 title="Parque Reina Sofía"
-	 width="100%"
+	 width="1200"
+	 height="675"
 	 loading="lazy">
 		
 <p>En invierno es un lugar muy tranquilo y apacible. En verano un pueblo con mucho ambiente, restaurantes, bares y parques llenos de gente. ¡Ven a visitarnos en cualquier momento del año, seguro que lo pasas genial!</p>

@@ -9,9 +9,7 @@
 <meta name="keywords" content="Guardamar del Segura, turismo, playa, pinada, viajes, escapada">
 <meta name="copyright" content="UOC 2024">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&display=swap" rel="stylesheet">
+<link rel="preload" href="img/pavo_500.webp" as="image">
 <link rel="stylesheet" href="styles.css">
 <script src="app.js" async></script>
 <title>Parque Reina Sofía</title>
@@ -37,10 +35,10 @@
 <p>Ubicado en el corazón de Guardamar del Segura, el Parque Reina Sofía es un oasis natural que combina tranquilidad, belleza paisajística y entretenimiento para toda la familia. Este espacio verde, uno de los más emblemáticos de la ciudad, es perfecto para desconectar del bullicio y sumergirse en un entorno lleno de vida y color.</p>
 		
 <picture>
-	<source srcset="img/parque_entrada_1200.jpg" media="(min-width: 800px)"> 
-	<source srcset="img/parque_entrada_900.jpg" media="(min-width: 500px)">
-	<source srcset="img/parque_entrada_500.jpg" media= "(max-width: 499px)">
-	<img src="img/parque_entrada_900.jpg" alt="Foto de la entrada principal al parque Reina Sofía de Guardamar" title="Entrada al Parque Reina Sofía" width="100%">
+	<source srcset="img/parque_entrada_1200.webp" media="(min-width: 800px)"> 
+	<source srcset="img/parque_entrada_900.webp" media="(min-width: 500px)">
+	<source srcset="img/parque_entrada_500.webp" media= "(max-width: 499px)">
+	<img src="img/parque_entrada_900.webp" class="fija" alt="Foto de la entrada principal al parque Reina Sofía de Guardamar" title="Entrada al Parque Reina Sofía" width="900" height="620">
 </picture>
 
 		
@@ -48,16 +46,18 @@
 		
 <p>El Parque Reina Sofía destaca por su diseño cuidado, que integra elementos naturales como lagos y cascadas con amplias zonas de sombra proporcionadas por frondosos árboles. Durante tu visita, podrás recorrer senderos bien delimitados que te guían a través de sus rincones más encantadores, perfectos para pasear, hacer ejercicio o simplemente disfrutar del aire libre.</p>
 		
-<img srcset= "img/parque_03_1200.jpg 1200w, 
-				 img/parque_03_900.jpg 900w, 
-				 img/parque_03_500.jpg 500w"
+<img srcset= "img/parque_03_1200.webp 1200w, 
+				 img/parque_03_900.webp 900w, 
+				 img/parque_03_500.webp 500w"
 	 sizes= "(min-width: 800px) 1200vw,
 				 (min-width: 500px) 900vw,
 				 500vw"
-	 src="img/parque_03_900.jpg"
+	 src="img/parque_03_900.webp"
+	 class="fija"
 	 alt="Foto del parque Reina Sofía de Guardamar"
 	 title="Parque Reina Sofía"
-	 width="100%"
+	 width="900"
+	 height="506"
 	 loading="lazy">
 		
 <h2>¡Muchos animales y una gran variedad de plantas!</h2>
@@ -79,10 +79,10 @@
 <p>Todos ellos animan mucho el ambiente del pueblo y si tienes suerte, ¡podrás ver pollitos!</p>
 
 <picture>
-	<source srcset="img/animalitos_1200.jpg" media="(min-width: 800px)"> 
-	<source srcset="img/animalitos_900.jpg" media="(min-width: 500px)">
-	<source srcset="img/animalitos_500.jpg" media= "(max-width: 499px)">
-	<img src="img/animalitos_1200.jpg" alt="Foto de muchos pavos reales y patos en el parque Reina Sofía de Guardamar" title="Pavos reales y patos" width="100%" loading="lazy">
+	<source srcset="img/animalitos_1200.webp" media="(min-width: 800px)"> 
+	<source srcset="img/animalitos_900.webp" media="(min-width: 500px)">
+	<source srcset="img/animalitos_500.webp" media= "(max-width: 499px)">
+	<img src="img/animalitos_1200.webp" class="fija" alt="Foto de muchos pavos reales y patos en el parque Reina Sofía de Guardamar" title="Pavos reales y patos" width="1200" height="686" loading="lazy">
 </picture>
 		
 		
@@ -96,7 +96,7 @@
 	<source srcset="img/tobogan_1200.webp" media="(min-width: 800px)"> 
 	<source srcset="img/tobogan_900.webp" media="(min-width: 500px)">
 	<source srcset="img/tobogan_500.webp" media= "(max-width: 499px)">
-	<img src="img/tobogan_1200.webp" alt="Foto de un tobogán en el parque Reina Sofía de Guardamar" title="Entrada al Parque Reina Sofía" width="100%" loading="lazy">
+	<img src="img/tobogan_1200.webp" class="fija" alt="Foto de un tobogán en el parque Reina Sofía de Guardamar" title="Entrada al Parque Reina Sofía" width="1200" height="854" loading="lazy">
 </picture>
 
 
@@ -108,16 +108,18 @@
 
 <p>¿A qué esperas para descubrir este pequeño paraíso urbano?</p>
 		
-<img srcset= "img/parque_02_1200.jpg 1200w, 
-				 img/parque_02_900.jpg 900w, 
-				 img/parque_02_500.jpg 500w"
+<img srcset= "img/parque_02_1200.webp 1200w, 
+				 img/parque_02_900.webp 900w, 
+				 img/parque_02_500.webp 500w"
 	 sizes= "(min-width: 800px) 1200vw,
 				 (min-width: 500px) 900vw,
 				 500vw"
-	 src="img/parque_02_1200.jpg"
+	 src="img/parque_02_1200.webp"
+	 class="fija"
 	 alt="Foto del parque Reina Sofía de Guardamar"
 	 title="Parque Reina Sofía"
-	 width="100%"
+	 width="1200"
+	 height="675"
 	 loading="lazy">
 		
 	</div>
@@ -130,7 +132,7 @@
 		
 	<article>
 		
-<a href="#" class="nada"><img src="img/playa-etiqueta.webp" alt="Foto de la Playa Centro de Guardamar" title="Playa Centro" loading="lazy"></a>
+<a href="#" class="nada"><img src="img/playa-etiqueta.webp" width="400" height="350" alt="Foto de la Playa Centro de Guardamar" title="Playa Centro"></a>
 		
 <h3><a class="article" href="#" title="Abre en la misma ventana">Playas de Guardamar</a></h3>
 
@@ -138,7 +140,7 @@
 		
 	<article>
 		
-<a href="#" class="nada"><img src="img/pinada-etiqueta.webp" alt="Foto de la Pinada de Guardamar" title="Pinada de Guardamar" loading="lazy"></a>
+<a href="#" class="nada"><img src="img/pinada-etiqueta.webp" width="400" height="350" alt="Foto de la Pinada de Guardamar" title="Pinada de Guardamar"></a>
 		
 <h3><a class="article" href="#" title="Abre en la misma ventana">Pinada de Guardamar</a></h3>
 	
@@ -146,7 +148,7 @@
 			
 	<article>
 		
-<a href="#" class="nada"><img src="img/faro-etiqueta.webp" alt="Foto del faro de Guardamar" title="Faro de Guardamar" loading="lazy"></a>
+<a href="#" class="nada"><img src="img/faro-etiqueta.webp" width="400" height="350" alt="Foto del faro de Guardamar" title="Faro de Guardamar"></a>
 		
 <h3><a class="article" href="#" title="Abre en la misma ventana">Desembocadura del Segura</a></h3>
 
