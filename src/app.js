@@ -288,3 +288,26 @@ class LiteYTEmbed extends HTMLElement {
 // Register custom element
 customElements.define('lite-youtube', LiteYTEmbed);
 
+
+
+
+
+// Función para aplicar lazy loading a las etiquetas solo en formato móvil.
+function applyLazyLoading() {
+  const isMobile = window.matchMedia("(max-width: 600px)").matches;
+
+  const tagsImages = document.querySelectorAll("article a img");
+
+  tagsImages.forEach((img) => {
+    if (isMobile) {
+      img.setAttribute("loading", "lazy");
+    } else {
+      img.removeAttribute("loading");
+    }
+  });
+}
+
+applyLazyLoading();
+
+window.addEventListener("resize", applyLazyLoading);
+
